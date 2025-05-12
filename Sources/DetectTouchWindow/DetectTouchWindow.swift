@@ -3,7 +3,6 @@
 import Foundation
 import UIKit
 import DetectTouchObservableObject
-import WebSocketModule
 public class DetectTouchAppDelegate: NSObject, UIApplicationDelegate{
     public func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         let sceneConfig = UISceneConfiguration(name: nil, sessionRole: connectingSceneSession.role)
